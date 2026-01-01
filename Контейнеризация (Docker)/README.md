@@ -1,0 +1,84 @@
+# Домашнее задание к занятию «1.1. Контейнеризация (Docker)»
+
+---
+
+## Задание 1. Образы и контейнеры Docker
+
+Скриншот вывода команды `ifconfig` (Kali Linux):
+![](screens/Screen1.1.png)
+
+скриншот вывода результатов команды `sudo docker pull bash`:
+![](screens/Screen1.2.png)
+
+скриншот вывода результатов команды `sudo docker run -it bash`:
+![](screens/Screen1.3.png)
+
+скриншот вывода результатов команд:
+
+ -`sudo docker stop testbox`
+ -`sudo docker rm testbox`
+ -`sudo docker rmi bash`
+ -`sudo docker ps -a`
+ -`sudo docker image ls`:
+
+![](screens/Screen1.4.png)
+
+---
+
+## Задание 2. Bash в Docker
+
+скриншот вывода результатов команды `sudo docker run --rm -it bash`:
+![](screens/Screen2.1.png)
+
+скриншот вывода результатов команд `whoami`, `cat /etc/*release*` и `ls -la /` (в контейнере):
+![](screens/Screen2.2-3.png)
+
+скриншот вывода результатов команд `whoami` и `cat /etc/*release*` (в основной системе):
+![](screens/Screen2.4.png)
+![](screens/Screen2.4_.png)
+
+скриншот вывода результатов команды `ls -la` (в основной системе):
+![](screens/Screen2.5.png)
+
+---
+
+## Задание 3. Dockerfile
+
+
+скриншот вывода содержимого файла скрипта `cat mybash1.sh`:
+![](screens/Screen3.1.png)
+
+скриншот вывода содержимого файла Dockerfile `cat Dockerfile`:
+![](screens/Screen3.2.png)
+
+скриншот результатов сборки образа `sudo docker build -t imagebash1 .` искриншот результатов запуска контейнера `sudo docker run –rm imagebash1`:
+![](screens/Screen3.3-4.png)
+
+скриншот результатов запуска скрипта в основной системе ./mybash1.sh:
+![](screens/Screen3.5.png)
+
+---
+
+## Задание 4. Docker-compose
+
+скриншот вывода содержимого подготовленного файла `index.html`, содержащий Ф.И.:
+![](screens/Screen4.1.png)
+
+скриншот вывода содержимого подготовленного файла `docker-compose.yml`:
+![](screens/Screen4.2.png)
+
+скриншот результатов запуска подготовленной связки контейнеров:
+![](screens/Screen4.3_1.png)
+![](screens/Screen4.3_2.png)
+
+скриншот первоначальной титульной страницы Nginx при подключении браузером к контейнеру:
+![](screens/Screen4.4.png)
+
+скриншот запуска связки контейнеров после замены файла index.html в контейнере, содержащий Ф.И.:
+![](screens/Screen4.5.png)
+
+скриншот варианта титульной страницы Nginx при подключении браузером к контейнеру, содержащий Ф.И.:
+![](screens/Screen4.6.png)
+
+скриншот вывода результатов команды остановки связки контейнеров:
+![](screens/Screen4.7.png)
