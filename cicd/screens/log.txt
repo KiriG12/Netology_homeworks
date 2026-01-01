@@ -1,0 +1,549 @@
+~~~~~~~~~~~~~~~~~~~~~
+2mReason: High Entropym
+2mDate: 2021-01-21 07:14:31m
+2mHash: 35e200c02503c877d8e619d362ecb69f715b8a2cm
+2mFilepath: service/go.summ
+2mBranch: origin/masterm
+2mCommit: deps: upgrade
+m
+@@ -3,19 +3,21 @@ github.com/cockroachdb/apd v1.1.0/go.mod h1:3m8Sl8LxpKi29FqWXR16WEFZRNSz3SoPzUzeMem
+ github.com/coreos/go-systemd v0.0.0-20190321100706-95778dfbb74e/go.mod h1:3m3mF5haX7vjVVG0kc13fIWeqUViNPyEJxv/OmvnBo0Yme4=mm
+ github.com/coreos/go-systemd v0.0.0-20190719114852-fd7a80b32e1f/go.mod h1:3m3mF5haX7vjVVG0kc13fIWeqUViNPyEJxv/OmvnBo0Yme4=mm
+ github.com/creack/pty v1.1.7/go.mod h1:3mlj5s0c3V2DBrqTV7llrYr5NG6My20zk30Fl46Y7DoTY=m
++github.com/creack/pty v1.1.9/go.mod h1:3moKZEueFk5CKHvIhNR5MUki03XCEU+Q6VDXinZuGJ33E=m
+ github.com/davecgh/go-spew v1.1.0/go.mod h1:3m3mJ7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=mm
+ github.com/davecgh/go-spew v1.1.1/go.mod h1:3m3mJ7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=mm
+-github.com/go-chi/chi v1.5.1 h1:3mkfTK3Cxd/dkMu/rKs5ZceWYp+t5CtiE7vmaTv3LjC6w=m
+-github.com/go-chi/chi v1.5.1/go.mod h1:3m3mREp24E+25iKvxgeTfHmdUoL5x15kBiDBlnIl5bCwe2k=mm
++github.com/go-chi/chi v1.5.0 h1:3m2ZcJZozJ+rj6BA0c19ffBUGXEKAT/aOLOtQjD46vBRA=m
++github.com/go-chi/chi v1.5.0/go.mod h1:3m3mREp24E+25iKvxgeTfHmdUoL5x15kBiDBlnIl5bCwe2k=mm
+ github.com/go-stack/stack v1.8.0/go.mod h1:3mv0f6uXyyMGvRgIKkXu+yp6POWl0qKG85gN/melR3HDY=m
+ github.com/gofrs/uuid v3.2.0+incompatible/go.mod h1:3m3mb2aQJv3Z4Fp6yNu3cdSllBxTCLRxnplIgP/c0N/04lM=mm
++github.com/gofrs/uuid v3.3.0+incompatible h1:3m8K4tyRfvU1CYPgJsveYFQMhpFd/wXNM7iK6rR7UHz84=m
++github.com/gofrs/uuid v3.3.0+incompatible/go.mod h1:3m3mb2aQJv3Z4Fp6yNu3cdSllBxTCLRxnplIgP/c0N/04lM=mm
+ github.com/google/renameio v0.1.0/go.mod h1:3mKWCgfxg9yswjAJkECMjeO8J8rahYeXnNhOm40UhjYkI=m
+-github.com/google/uuid v1.1.5 h1:3mkxhtnfFVi+rYdOALN0B3k9UT86zVJKfBimRaciULW4I=m
+-github.com/google/uuid v1.1.5/go.mod h1:3m3m3mTIyPZe4MgqvfeYDBFedMoGGpEw/LqOeaOT+nhxU+yHo=mmm
+-github.com/jackc/chunkreader v1.0.0 h1:3m4s39bBR8ByfqH+DKm8rQA3E1LHZWB9XWcrz8fqaZbe0=m
++github.com/google/uuid v1.1.1/go.mod h1:3m3m3mTIyPZe4MgqvfeYDBFedMoGGpEw/LqOeaOT+nhxU+yHo=mmm
++github.com/google/uuid v1.1.2 h1:3mEVhdT+1Kseyi1/pUmXKaFxYsDNy9RQYkMWRH68J/W7Y=m
++github.com/google/uuid v1.1.2/go.mod h1:3m3m3mTIyPZe4MgqvfeYDBFedMoGGpEw/LqOeaOT+nhxU+yHo=mmm
+ github.com/jackc/chunkreader v1.0.0/go.mod h1:3mRT6O25fNZIuasFJRyZ4R/Y2BbhasbmZXF9QQ7T3kePo=m
+ github.com/jackc/chunkreader/v2 v2.0.0/go.mod h1:3m3modVSm741yZoC3dpHEUXIqA9tQRhFrgOHwnPIn9lDKlk=mm
+-github.com/jackc/chunkreader/v2 v2.0.1 h1:3mi+RDz65UE+mmpjTfyz0MoVTnzeYxroil2G82ki7MGG8=m
+ github.com/jackc/chunkreader/v2 v2.0.1/go.mod h1:3m3modVSm741yZoC3dpHEUXIqA9tQRhFrgOHwnPIn9lDKlk=mm
+ github.com/jackc/pgconn v0.0.0-20190420214824-7e0022ef6ba3/go.mod h1:3mjkELnwuX+w9qN5YIfX0fl88Ehu4XC3keFuOJJk9pcnA=m
+ github.com/jackc/pgconn v0.0.0-20190824142844-760dd75542eb/go.mod h1:3mlLjNuW/+OfW9/pnVKPazfWOgNfH2aPem8YQ7ilXGvJE=m
+@@ -23,26 +25,22 @@ github.com/jackc/pgconn v0.0.0-20190831204454-2fabfa3c18b7/go.mod h1:ZJKsE/KZfsU
+ github.com/jackc/pgconn v1.4.0/go.mod h1:3mY2O3ZDF0q4mMacyWV3AstPJpeHXWGEetiFttmq5lahk=m
+ github.com/jackc/pgconn v1.5.0/go.mod h1:3m3mQeD3lBfpTFe8WUnPZWN5KY/mB8FGMIYRdd8P8Jr0fAI=mm
+ github.com/jackc/pgconn v1.5.1-0.20200601181101-fa742c524853/go.mod h1:3m3mQeD3lBfpTFe8WUnPZWN5KY/mB8FGMIYRdd8P8Jr0fAI=mm
+-github.com/jackc/pgconn v1.8.0 h1:3mFmjZ0rOyXTr1wfWs45i4a9vjnjWUAGpMuQLD9OSs+lw=m
+-github.com/jackc/pgconn v1.8.0/go.mod h1:3m3m1C2Pb36bGIP9QHGBYCjnyhqu7Rv3sGshaQUvmfGIB/o=mm
+-github.com/jackc/pgio v1.0.0 h1:3mg12B9UwVnzGhueNavwioyEEpAmqMe1E/BN9ES+8ovkE=m
++github.com/jackc/pgconn v1.6.4/go.mod h1:3mw2pne1C2tZgP+TvjqLpOigGzNqjBgQW9dUw/4Chex78=m
++github.com/jackc/pgconn v1.7.2 h1:3m195tt17jkjy+FrFlY0pgyrul5kRLb7BGXY3JTrNxeXU=m
++github.com/jackc/pgconn v1.7.2/go.mod h1:3m3m1C2Pb36bGIP9QHGBYCjnyhqu7Rv3sGshaQUvmfGIB/o=mm
+ github.com/jackc/pgio v1.0.0/go.mod h1:3moP+2QK2wFfUWgr+gxjoBH9KGBb31Eio69xUb0w5bYf8=m
+ github.com/jackc/pgmock v0.0.0-20190831213851-13a1b77aafa2/go.mod h1:3mfGZlG77KXmcq05nJLRkk0+p82V8B8Dw8KN2/V9c/OAE=m
+-github.com/jackc/pgpassfile v1.0.0 h1:3m/6Hmqy13Ss2zCq62VdNG8tM1wchn8zjSGOBJ6icpsIM=m
+ github.com/jackc/pgpassfile v1.0.0/go.mod h1:3mCEx0iS5ambNFdcRtxPj5JhEz+xB6uRky5eyVu/W2HEg=m
+-github.com/jackc/pgproto3 v1.1.0 h1:3mFYYE4yRw+AgI8wXIinMlNjBbp/UitDJwfj5LqqewP1A=m
+ github.com/jackc/pgproto3 v1.1.0/go.mod h1:3meR5FA3leWg7p9aeAqi37XOTgTIbkABlvcPB3E5rlc78=m
+ github.com/jackc/pgproto3/v2 v2.0.0-alpha1.0.20190420180111-c116219b62db/go.mod h1:3mbhq50y+xrl9n5mRYyCBFKkpRVTLYJVWeCc+mEAI3yXA=m
+ github.com/jackc/pgproto3/v2 v2.0.0-alpha1.0.20190609003834-432c2951c711/go.mod h1:3muH0AWtUmuShn0bcesswc4aBTWGvw0cAxIJp+6OB//Wg=m
+ github.com/jackc/pgproto3/v2 v2.0.0-rc3/go.mod h1:3m3mryONWYqW6dqSg1Lw6vXNMXoBJhpzvWKnT95C46ckYeM=mm
+ github.com/jackc/pgproto3/v2 v2.0.0-rc3.0.20190831210041-4c03ce451f29/go.mod h1:3m3mryONWYqW6dqSg1Lw6vXNMXoBJhpzvWKnT95C46ckYeM=mm
+ github.com/jackc/pgproto3/v2 v2.0.1/go.mod h1:3m3m3m3mWfJCnwN3HIg9Ish/j3sgWXnAfK8A9Y0bwXYU5xKaEdA=mmmm
++github.com/jackc/pgproto3/v2 v2.0.2/go.mod h1:3m3m3m3mWfJCnwN3HIg9Ish/j3sgWXnAfK8A9Y0bwXYU5xKaEdA=mmmm
+ github.com/jackc/pgproto3/v2 v2.0.6 h1:3mb1105ZGEMFe7aCvrT1Cca3VoVb4ZFMaFJLJcg/3zD+8=m
+ github.com/jackc/pgproto3/v2 v2.0.6/go.mod h1:3m3m3m3mWfJCnwN3HIg9Ish/j3sgWXnAfK8A9Y0bwXYU5xKaEdA=mmmm
+-github.com/jackc/pgproto3/v2 v2.0.7 h1:3m6Pwi1b3QdY65cuv6SyVO0FgPd5J3Bl7wf/nQQjinHMA=m
+-github.com/jackc/pgproto3/v2 v2.0.7/go.mod h1:3m3m3m3mWfJCnwN3HIg9Ish/j3sgWXnAfK8A9Y0bwXYU5xKaEdA=mmmm
+ github.com/jackc/pgservicefile v0.0.0-20200307190119-3430c5407db8/go.mod h1:3m3mvsD4gTJCa9TptPL8sPkXrLZ+hDuNrZCnj29CQpr4X1E=mm
+-github.com/jackc/pgservicefile v0.0.0-20200714003250-2b9c44734f2b h1:3mC8S2+VttkHFdOOCXJe+YGfa4vHYwlt4Zx+IVXQ97jYg=m
+ github.com/jackc/pgservicefile v0.0.0-20200714003250-2b9c44734f2b/go.mod h1:3m3mvsD4gTJCa9TptPL8sPkXrLZ+hDuNrZCnj29CQpr4X1E=mm
+ github.com/jackc/pgtype v0.0.0-20190421001408-4ed0de4755e0/go.mod h1:3mhdSHsc1V01CGwFsrv11mJRHWJ6aifDLfdV3aVjFF0zg=m
+ github.com/jackc/pgtype v0.0.0-20190824184912-ab885b375b90/go.mod h1:3mKcahbBH1nCMSo2DXpzsoWOAfFkdEtEJpPbVLq8eE+mc=m
+@@ -50,33 +48,39 @@ github.com/jackc/pgtype v0.0.0-20190828014616-a8802b16cc59/go.mod h1:MWlu30kVJrU
+ github.com/jackc/pgtype v1.2.0/go.mod h1:3m5m2OfMh1wTK7x+Fk952IDmI4nw3nPrvtQdM0ZT4WpC0=m
+ github.com/jackc/pgtype v1.3.1-0.20200510190516-8cd94a14c75a/go.mod h1:3mvaogEUkALtxZMCH411K+tKzNpwzCKU+AnPzBKZ+I+Po=m
+ github.com/jackc/pgtype v1.3.1-0.20200606141011-f6355165a91c/go.mod h1:3mcvk9Bgu/VzJ9/lxTO5R5sf80p0DiucVtN7ZxvaC4GmQ=m
+-github.com/jackc/pgtype v1.6.2 h1:3mb3pDeuhbbzBYcg5kwNmNDun4pFUD/0AAr1kLXZLeNt8=m
+-github.com/jackc/pgtype v1.6.2/go.mod h1:3m3m3mJCULISAZBFGrHaOXIIFiyfzW5VY0GRitRr8NeJsrdig=mmm
+-github.com/jackc/pgx v3.6.2+incompatible h1:3m2zP5OD7kiyR3xzRYMhOcXVvkDZsImVXfj+yIyTQf3/o=m
++github.com/jackc/pgtype v1.4.2/go.mod h1:3m3m3mJCULISAZBFGrHaOXIIFiyfzW5VY0GRitRr8NeJsrdig=mmm
++github.com/jackc/pgtype v1.6.1 h1:3mCAtFD7TS95KrxRAh3bidgLwva48WYxk8YkbHZsSWfbI=m
++github.com/jackc/pgtype v1.6.1/go.mod h1:3m3m3mJCULISAZBFGrHaOXIIFiyfzW5VY0GRitRr8NeJsrdig=mmm
+ github.com/jackc/pgx/v4 v4.0.0-20190420224344-cc3461e65d96/go.mod h1:3mmdxmSJJuR08CZQyj1PVQBHy9XOp5p8/SHH6a0psbY9Y=m
+ github.com/jackc/pgx/v4 v4.0.0-20190421002000-1b8f0016e912/go.mod h1:3mno/Y67Jkk/9WuGR0JG/JseM9irFbnEPbuWV2EELPNuM=m
+ github.com/jackc/pgx/v4 v4.0.0-pre1.0.20190824185557-6972a5742186/go.mod h1:3mX+GQnOEnf1dqHGpw7JmHqHc1NxDoalibchSk9/RWuDc=m
+ github.com/jackc/pgx/v4 v4.5.0/go.mod h1:3mEpAKPLdnTorwmPUUsqrPxy5fphV18j9q3wrfRXgo+kA=m
+ github.com/jackc/pgx/v4 v4.6.1-0.20200510190926-94ba730bb1e9/go.mod h1:3mt3/cdRQl6fOLDxqtlyhe9UWgfIi9R8+8v8GKV5TRA/o=m
+ github.com/jackc/pgx/v4 v4.6.1-0.20200606145419-4e5062306904/go.mod h1:3mZDaNWkt9sW1JMiNn0kdYBaLelIhw7Pg4qd+Vk6tw7Hg=m
+-github.com/jackc/pgx/v4 v4.10.1 h1:3m/6Q3ye4myIj6AaplUm+eRcz4OhK9HAvFf4ePsG40LJY=m
+-github.com/jackc/pgx/v4 v4.10.1/go.mod h1:3mQlrWebbs3kqEZPHCTGyxecvzG6tvIsYu+A5b1raylkA=m
++github.com/jackc/pgx/v4 v4.8.1/go.mod h1:3m4HOLxrl8wToZJReD04/yB20GDwf4KBYETvlHciCnwW0=m
++github.com/jackc/pgx/v4 v4.9.2 h1:3m1V7EAc5jvIqXwdzgk8+YyOK+4071hhePzBCAF6gxUUw=m
++github.com/jackc/pgx/v4 v4.9.2/go.mod h1:3mJt/xJDqjUDUOMSv8VMWPQlCObVgF2XOgqKsW8S4ROYA=m
+ github.com/jackc/puddle v0.0.0-20190413234325-e4ced69a3a2b/go.mod h1:3m3m3m3m3m3mm4B5Dj62Y0fbyuIc15OsIqK0+JU8nkqQjsgx7dvjSWk=mmmmmm
+ github.com/jackc/puddle v0.0.0-20190608224051-11cab39313c9/go.mod h1:3m3m3m3m3m3mm4B5Dj62Y0fbyuIc15OsIqK0+JU8nkqQjsgx7dvjSWk=mmmmmm
+ github.com/jackc/puddle v1.1.0/go.mod h1:3m3m3m3m3m3mm4B5Dj62Y0fbyuIc15OsIqK0+JU8nkqQjsgx7dvjSWk=mmmmmm
+ github.com/jackc/puddle v1.1.1/go.mod h1:3m3m3m3m3m3mm4B5Dj62Y0fbyuIc15OsIqK0+JU8nkqQjsgx7dvjSWk=mmmmmm
+-github.com/jackc/puddle v1.1.3/go.mod h1:3m3m3m3m3m3mm4B5Dj62Y0fbyuIc15OsIqK0+JU8nkqQjsgx7dvjSWk=mmmmmm
++github.com/jackc/puddle v1.1.2 h1:3mmpQEXihFnWGDy6X98EOTh81JYuxn7txby8ilJ3iIPGM=m
++github.com/jackc/puddle v1.1.2/go.mod h1:3m3m3m3m3m3mm4B5Dj62Y0fbyuIc15OsIqK0+JU8nkqQjsgx7dvjSWk=mmmmmm
+ github.com/kisielk/gotool v1.0.0/go.mod h1:3mXhKaO+MFFWcvkIS/tQcRk01m1F5IRFswLeQ+oQHNcck=m
+ github.com/konsorten/go-windows-terminal-sequences v1.0.1/go.mod h1:3m3mT0+1ngSBFLxvqU3pZ+m/2kptfBszLMUkC4ZK/EgS/cQ=mm
+ github.com/konsorten/go-windows-terminal-sequences v1.0.2/go.mod h1:3m3mT0+1ngSBFLxvqU3pZ+m/2kptfBszLMUkC4ZK/EgS/cQ=mm
+ github.com/kr/pretty v0.1.0/go.mod h1:3mdAy3ld7l9f0ibDNOQOHHMYYIIbhfbHSm3C4ZsoJORNo=m
++github.com/kr/pretty v0.2.1/go.mod h1:3mipq/a2n7PKx3OHsz4KJII5eveXtPO4qwEXGdVfWzfnI=m
+ github.com/kr/pty v1.1.1/go.mod h1:3mpFQYn66WHrOpPYNljwOMqo10TkYh1fy3cYio2l3bCsQ=m
+ github.com/kr/pty v1.1.8/go.mod h1:3mO1sed60cT9XZ5uDucP5qwvh+TE3NnUj51EiZO/lmSfw=m
+ github.com/kr/text v0.1.0/go.mod h1:3m4Jbv+DJW3UT/LiOwJeYQe1efqtUx/iVham/4vfdArNI=m
++github.com/kr/text v0.2.0/go.mod h1:3meLer722TekiGuMkidMxC/pM04lWEeraHUUmBw8l2grE=m
+ github.com/lib/pq v1.0.0/go.mod h1:3m3m3m3m5WUZQaWbwv1U+lTReE5YruASi9Al49XbQIvNi/34Woo=mmmm
+ github.com/lib/pq v1.1.0/go.mod h1:3m3m3m3m5WUZQaWbwv1U+lTReE5YruASi9Al49XbQIvNi/34Woo=mmmm
+ github.com/lib/pq v1.2.0/go.mod h1:3m3m3m3m5WUZQaWbwv1U+lTReE5YruASi9Al49XbQIvNi/34Woo=mmmm
+ github.com/lib/pq v1.3.0/go.mod h1:3m3m3m3m5WUZQaWbwv1U+lTReE5YruASi9Al49XbQIvNi/34Woo=mmmm
++github.com/lib/pq v1.8.0 h1:3m9xohqzkUwzR4Ga4ivdTcawVS89YSDVxXMa3xJX3cGzg=m
++github.com/lib/pq v1.8.0/go.mod h1:3mAlVN5x4E4T544tWzH6hKfbfQvm3HdbOxrmggDNAPY9o=m
+ github.com/mattn/go-colorable v0.1.1/go.mod h1:3mFuOcm+DKB9mbwrcAfNl7/TZVBZ6rcnceauSikq3lYCQ=m
+ github.com/mattn/go-colorable v0.1.2/go.mod h1:3mU0ppj6V5qS13XJ6of8GYAs25YV2eR4EVcfRqFIhoBtE=m
+ github.com/mattn/go-colorable v0.1.6/go.mod h1:3mu6P/XSegPjTcexA+o6vUJrdnUu04hMope9wVRipJSqc=m
+@@ -85,7 +89,9 @@ github.com/mattn/go-isatty v0.0.7/go.mod h1:3mIq45c/XA43vh69/j3iqttzPXn0bhXyGjM0Hdm
+ github.com/mattn/go-isatty v0.0.8/go.mod h1:3mIq45c/XA43vh69/j3iqttzPXn0bhXyGjM0Hdmxcsrc5s=
+ github.com/mattn/go-isatty v0.0.9/go.mod h1:3mYNRxwqDuOph6SZLI9vUUz6OYw3QyUt7WiY2yME+cCiQ=m
+ github.com/mattn/go-isatty v0.0.12/go.mod h1:3mcbi8OIDigv2wuxKPP5vlRcQ1OAZbq2CE4Kysco4FUpU=m
++github.com/niemeyer/pretty v0.0.0-20200227124842-a10e7caefd8e/go.mod h1:3mzD1mROLANZcx1PVRCS0qkT7pwLkGfwJo4zjcN/Tysno=m
+ github.com/pkg/errors v0.8.1/go.mod h1:3m3mbwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=mm
++github.com/pkg/errors v0.9.1/go.mod h1:3m3mbwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=mm
+ github.com/pmezard/go-difflib v1.0.0/go.mod h1:3miKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=m
+ github.com/rogpeppe/go-internal v1.3.0/go.mod h1:3mM8bDsm7K2OlrFYOpmOWEs/qY81heoFRclV5y23lUDJ4=m
+ github.com/rs/xid v1.2.1/go.mod h1:3m+uKXf+4Djp6Md1KODXJxgGQPKngRmWyn10oCKFzNHOQ=m
+@@ -94,6 +100,8 @@ github.com/rs/zerolog v1.15.0/go.mod h1:3mxYTKnLHcpfU2225ny5qZjxnj9NvkumZYjJHlAThCm
+ github.com/satori/go.uuid v1.2.0/go.mod h1:3mdA0hQrYB0VpLJoorglMZABFdXlWrHn1NEOzdhQKdks0=m
+ github.com/shopspring/decimal v0.0.0-20180709203117-cd690d0c9e24/go.mod h1:3mM+9NzErvs504Cn4c5DxATwIqPbtswREoFCre64PpcG4=m
+ github.com/shopspring/decimal v0.0.0-20200227202807-02e2044944cc/go.mod h1:3m3mDKyhrW/HYNuLGql+MJL6WCR6knT2jwCFRcu2hWCYk4o=mm
++github.com/shopspring/decimal v1.2.0 h1:3mabSATXmQEYyShuxI4/vyW3tV1MrKAJzCZ/0zLUXYbsQ=m
++github.com/shopspring/decimal v1.2.0/go.mod h1:3m3mDKyhrW/HYNuLGql+MJL6WCR6knT2jwCFRcu2hWCYk4o=mm
+ github.com/sirupsen/logrus v1.4.1/go.mod h1:3mni0Sbl8bgC9z8RoU9G6nDWqqs/fq4eDPysMBDgk/93Q=m
+ github.com/sirupsen/logrus v1.4.2/go.mod h1:3mtLMulIdttU9McNUspp0xgXVQah82FyeX6MwdIuYE2rE=m
+ github.com/stretchr/objx v0.1.0/go.mod h1:3mHFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=m
+@@ -103,6 +111,7 @@ github.com/stretchr/testify v1.2.2/go.mod h1:3ma8OnRcib4nhh0OaRAV+Yts87kKdq0PP7pXfm
+ github.com/stretchr/testify v1.3.0/go.mod h1:3mM5WIy9Dh21IEIfnGCwXGc5bZfKNJtfHm1UVUgZn+9EI=m
+ github.com/stretchr/testify v1.4.0/go.mod h1:3mj7eGeouHqKxXV5pUuKE4zz7dFj8WfuZ+81PSLYec5m4=m
+ github.com/stretchr/testify v1.5.1/go.mod h1:3m5W2xD1RspED5o8YsWQXVCued0rvSQ+mT+I5cxcmMvtA=m
++github.com/stretchr/testify v1.6.1/go.mod h1:3m6Fq8oRcR53rry900zMqJjRRixrwX3KX962/h/Wwjteg=m
+ github.com/zenazn/goji v0.9.0/go.mod h1:3m7S9M489iMyHBNxwZnk9/EHS098H4/F6TATF2mIxtB1Q=m
+ go.uber.org/atomic v1.3.2/go.mod h1:3m3mgD2HeocX3+yG+ygLZcrzQJaqmWj9AIm7n08wl/qW/PE=mm
+ go.uber.org/atomic v1.4.0/go.mod h1:3m3mgD2HeocX3+yG+ygLZcrzQJaqmWj9AIm7n08wl/qW/PE=mm
+@@ -119,8 +128,9 @@ golang.org/x/crypto v0.0.0-20190820162420-60c769a6c586/go.mod h1:yigFU9vqHzYiE8U
+ golang.org/x/crypto v0.0.0-20190911031432-227b76d455e7/go.mod h1:3myigFU9vqHzYiE8UmvKecakEJjdnWj3jj499lnFckfCI=m
+ golang.org/x/crypto v0.0.0-20200323165209-0ec3e9974c59/go.mod h1:3m3m3mLzIPMQfyMNhhGPhUkYOs5KpL4U8rLKemX1yGLhDgUto=mmm
+ golang.org/x/crypto v0.0.0-20200622213623-75b288015ac9/go.mod h1:3m3m3mLzIPMQfyMNhhGPhUkYOs5KpL4U8rLKemX1yGLhDgUto=mmm
+-golang.org/x/crypto v0.0.0-20201221181555-eec23a3978ad h1:3mDN0cp81fZ3njFcrLCytUHRSUkqBjfTo4Tx9RJTWs0EY=m
+-golang.org/x/crypto v0.0.0-20201221181555-eec23a3978ad/go.mod h1:3mjdWPYTVW3xRLrWPugEBEK3UY2ZEsg3UU495nc5E+M+I=m
++golang.org/x/crypto v0.0.0-20200820211705-5c72a883971a/go.mod h1:3m3m3mLzIPMQfyMNhhGPhUkYOs5KpL4U8rLKemX1yGLhDgUto=mmm
++golang.org/x/crypto v0.0.0-20201116153603-4be66e5b6582 h1:3m0WDrJ1E7UolDk1KhTXxxw3Fc8qtk5x7dHP431KHEJls=m
++golang.org/x/crypto v0.0.0-20201116153603-4be66e5b6582/go.mod h1:3mtCqSYrHVcf3i63Co2FzBkTCo2gdF6Zak62921dSfraU=m
+ golang.org/x/lint v0.0.0-20190930215403-16217165b5de/go.mod h1:3m6SW0HCj/g11FgYtHlgUYUwCkIfeOF89ocIRzGO/8vkc=m
+ golang.org/x/mod v0.0.0-20190513183733-4bf6d317e70e/go.mod h1:3mmXi4GBBbnImb6dmsKGUJ2LatrhH/nqhxcFungHvyanc=m
+ golang.org/x/net v0.0.0-20190311183353-d8887717615a/go.mod h1:3mt9HGtf8HONx5eT2rtn7q6eTqICYqUVnKs3thJo3Qplg=m
+@@ -139,13 +149,13 @@ golang.org/x/sys v0.0.0-20190826190057-c7b8b68b1456/go.mod h1:h1NjWce9XRLGQEsW7w
+ golang.org/x/sys v0.0.0-20191026070338-33540a1f6037/go.mod h1:3m3m3mh1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=mmm
+ golang.org/x/sys v0.0.0-20200116001909-b77594299b42/go.mod h1:3m3m3mh1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=mmm
+ golang.org/x/sys v0.0.0-20200223170610-d5e6a3e2c0ae/go.mod h1:3m3m3mh1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=mmm
+-golang.org/x/term v0.0.0-20201117132131-f5c789dd3221/go.mod h1:3m3mNr5EML6q2oocZ2LXRh80K7BxOlk5/8JxuGnuhpl+muw=mm
++golang.org/x/term v0.0.0-20201113234701-d7a72108b828/go.mod h1:3m3mNr5EML6q2oocZ2LXRh80K7BxOlk5/8JxuGnuhpl+muw=mm
+ golang.org/x/text v0.3.0/go.mod h1:3mNqM8EUOU14njkJ3fqMW+pc6Ldnwhi/IjpwHt7yyuwOQ=m
+ golang.org/x/text v0.3.2/go.mod h1:3mbEr9sfX3Q8Zfm5fL9x+3itogRgK3+ptLWKqgva+5dAk=m
+ golang.org/x/text v0.3.3 h1:3mcokOdA+Jmi5PJGXLlLllQSgYigAEfHXJAERHVMaCc2k=m
+ golang.org/x/text v0.3.3/go.mod h1:3m3m3m5Zoc/QRtKVWzQhOtBMvqHzDpF6irO9z98xDceosuGiQ=mmm
+-golang.org/x/text v0.3.5 h1:3mi6eZZ+zk0SOf0xgBpEpPD18qWcJda6q1sxt3S0kzyUQ=m
+-golang.org/x/text v0.3.5/go.mod h1:3m3m3m5Zoc/QRtKVWzQhOtBMvqHzDpF6irO9z98xDceosuGiQ=mmm
++golang.org/x/text v0.3.4 h1:3m0YWbFKbhXG/wIiuHDSKpS0Iy7FSA+u45VtBMfQcFTTc=m
++golang.org/x/text v0.3.4/go.mod h1:3m3m3m5Zoc/QRtKVWzQhOtBMvqHzDpF6irO9z98xDceosuGiQ=mmm
+ golang.org/x/tools v0.0.0-20180917221912-90fa682c2a6e/go.mod h1:3mn7NCudcB/nEzxVGmLbDWY5pfWTLqBcC2KZ6jyYvM4mQ=m
+ golang.org/x/tools v0.0.0-20190311212946-11955173bddd/go.mod h1:3mLCzVGOaR6xXOjkQ3onu1FJEFr0SW1gC7cKk1uF8kGRs=m
+ golang.org/x/tools v0.0.0-20190425163242-31fd60d6bfdc/go.mod h1:3mRgjU9mgBXZiqYHBnxXauZ1Gv1EHHAz9KjViQ78xBX0Q=m
+@@ -156,13 +166,17 @@ golang.org/x/tools v0.0.0-20191029190741-b9c20aec41a5/go.mod h1:b+2E5dAYhXwXZwtn
+ golang.org/x/xerrors v0.0.0-20190410155217-1f06c39b4373/go.mod h1:3m3m3m3m3mI/5z698sn9Ka8TeJc9MKroUUfqBBauWjQqLJ2OPfmY0=mmmmm
+ golang.org/x/xerrors v0.0.0-20190513163551-3ee3066db522/go.mod h1:3m3m3m3m3mI/5z698sn9Ka8TeJc9MKroUUfqBBauWjQqLJ2OPfmY0=mmmmm
+ golang.org/x/xerrors v0.0.0-20190717185122-a985d3407aa7/go.mod h1:3m3m3m3m3mI/5z698sn9Ka8TeJc9MKroUUfqBBauWjQqLJ2OPfmY0=mmmmm
+-golang.org/x/xerrors v0.0.0-20191204190536-9bdfabe68543 h1:3mE7g+9GITq07hpfrRu66IVDexMakfv52eLZ2CXBWiKr4=m
+ golang.org/x/xerrors v0.0.0-20191204190536-9bdfabe68543/go.mod h1:3m3m3m3m3mI/5z698sn9Ka8TeJc9MKroUUfqBBauWjQqLJ2OPfmY0=mmmmm
+-golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 h1:3mgo1bK/D/BFZV2I8cIQd1NKEZ+0owSTG1fDTci4IqFcE=m
+ golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1/go.mod h1:3m3m3m3m3mI/5z698sn9Ka8TeJc9MKroUUfqBBauWjQqLJ2OPfmY0=mmmmm
+ gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405/go.mod h1:3m3m3mCo6ibVJAznAaIkqp8huTwlJQCZ016jof/cbN4VW5Yz0=mmm
+ gopkg.in/check.v1 v1.0.0-20180628173108-788fd7840127/go.mod h1:3m3m3mCo6ibVJAznAaIkqp8huTwlJQCZ016jof/cbN4VW5Yz0=mmm
++gopkg.in/check.v1 v1.0.0-20200902074654-038fdea0a05b h1:3mQRR6H1YWRnHb4Y/HeNFCTJLFVxaq6wH4YuVdsUOr75U=m
++gopkg.in/check.v1 v1.0.0-20200902074654-038fdea0a05b/go.mod h1:3m3m3mCo6ibVJAznAaIkqp8huTwlJQCZ016jof/cbN4VW5Yz0=mmm
+ gopkg.in/errgo.v2 v2.1.0/go.mod h1:3mhNsd1EY+bozCKY1Ytp96fpM3vjJbqLJn88ws8XvfDNI=m
+ gopkg.in/inconshreveable/log15.v2 v2.0.0-20180818164646-67afb5ed74ec/go.mod h1:3maPpfJ7XW+gOuirDoZ8gHhLh3kZ1B08FtV2bbmy7Jv3s=m
+ gopkg.in/yaml.v2 v2.2.2/go.mod h1:3m3mhI93XBmqTisBFMUTm0b8Fm+jr3Dg1NNxqwp+5A1VGuI=mm
++gopkg.in/yaml.v2 v2.3.0/go.mod h1:3m3mhI93XBmqTisBFMUTm0b8Fm+jr3Dg1NNxqwp+5A1VGuI=mm
++gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c/go.mod h1:3m3mK4uyk7z7BCEPqu6E+C64Yfv1cQ7kz7rIZviUmN+EgEM=mm
++gopkg.in/yaml.v3 v3.0.0-20200615113413-eeeca48fe776 h1:3mtQIYjPdBoyREyB9XMu+nnTclpTYkz2zFM+lzLJFO4gQ=m
++gopkg.in/yaml.v3 v3.0.0-20200615113413-eeeca48fe776/go.mod h1:3m3mK4uyk7z7BCEPqu6E+C64Yfv1cQ7kz7rIZviUmN+EgEM=mm
+ honnef.co/go/tools v0.0.1-2019.2.3/go.mod h1:3ma3bituU0lyd329TUQxRnasdCoJDkEUEAqEt0JzvZhAg=m
+
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+2mReason: High Entropym
+2mDate: 2021-01-21 07:08:16m
+2mHash: d3d5d23e9b64d4c74ca66526b953afa2036391a2m
+2mFilepath: service/keys/private.keym
+2mBranch: origin/masterm
+2mCommit: fix(service): cleaned up
+m
+@@ -0,0 +1,27 @@
++-----BEGIN RSA PRIVATE KEY-----
+3m+MIIEpAIBAAKCAQEAxFv8lbJ+njQ1thnz25qZAsEQB0yRhz+Ri3X9r9+6M97dus80m
+3m+BRdkRaQPHxJxNaAKQc1HylYqBITS3mMSGjwsJ6WtlIAoR8PBUY8fnidjVagTkLFOm
+3m+dzZ+rEEOJtRB0zLUmeDxxDg2qMan2ijn2nksAshRhJQ8eNc84cdZ0pPdKz3ay774m
+3m+Ccj3gHcYHmadICs6nIjcVuJ9S1z16sT7LBiOWR6hlVeV/lJ+1TYrhiTPW+j7CZaXm
+3m+w/BbQZ+mKi/6QpY39tQntz73WIlqGO6uhLxpgUtFI+aZrcLXTHSWiSJLs9KAx++Qm
+3m+5KMF86NOPu8poA+f1twa3jN1NM/lQQBwKhmXbQIDAQABAoIBAQCKbC5LeWE5NaUHm
+3m+kpQOI5XqEx+xhZCxv2Zi4fLMoPMqzdmRb7BERpExZs4iIWYdX4zbhlMtmEBWnyvom
+3m+Cf8g73pRGMKdBRtgO+d0D2lCnJGyOKJSRiwCbjAuTk4joU4mDJdDQwgsQ1SE9kYtm
+3m+zNhlczZLX9vXkohux4zrvRTdFc+8QsoojlKwRTpRUFoJW7V5yfU9BqrujTqhWdDmm
+3m+m8VlcvWgPsX5djyDamgZuGr7aKjAMI4bXGahBIQdkWnpRnGu5e1gM1tCOqt/0WiRm
+3m+iTRkew0P6tyLqaCzlTheOEOGil74d8IANfOBO3ePqObuGBuBtsFzr9OgJ7MreXH0m
+3m+03CAsfUhAoGBAOpLN7hMNpw2wQp3DLXt9sn5MTyffEYVjK9IWeDErZNIDCKFXgwDm
+3m+mwstTBSIXA0ORPs5YGJJ+ZbvRUnWsViMvT9tyKu365hrFTpDl28boXdSVSQ7D3igm
+3m+NmTF6HG5Yg+0v3cQD/dDcoi3YlJY7Bnw9KNMv6xemwzuq5A4Xv5RTndjAoGBANaNm
+3m+Eh0gmmj+YaHhY+2MjO0TQFn1PMLxbwFvPJ/IfxbMg+ZZAXDV7fT8LlSWY4hnp44Wm
+3m+dZadlkdNZt1Dqs+xuiN0yE6HeLVa9rB1tpxhneKm3y+L2SThc+laQl7jnzkZaa//m
+3m+HEQURfCmmLgJTZ0gtUc4Z9bN/rNC1gRdUD+wFfbvAoGBANqyN2KqkVcjrPGNyqmPm
+3m+ZIuHNbR20lPBDb8X8/1g2PzfhaQ7hVwFiZXXRGruFa6CIVW3awaUMov28GBKLOSRm
+3m+Cp3IZkYTubBeVEQ8j4BA9GkiyyK0lm5sbhmGusBc4PH0L7x9m8mcha6kLvza0Bgum
+3m+2MwNeeT1shlSN4a5d8JANtQtAoGAH09fAVksr33QCau2xYfpWP+iOH6Na3WIWZE+m
+3m+K6M6yLz30rnSeAEAROw4Zqe7xsA5t4aXim9c6vLkvA2P89df7qSwRqWGfBDWR1Imm
+3m+YBPu0pC/qVSjT7qHC9rcLLTTG6YVwlVcbqL2wfPN/a194hxP2CDnJnXRYZ+zU9e6m
+3m+SlEMI4kCgYBa11Nlkt2YwHdpu0MAvTeA76983aQ20Tczx4qX17aOLdDdnVVQzoqrm
+3m+tZWXbWOrRJohpU/kSJYxrcK3fFdPJ2ctwe7jqVTylEo3yfpdgLLd+5ZQRt/+4kt6m
+3m+BTS1gNCQSJt8M2QznbIlNyWXi3jpjjKp7uyHJT/3r++5dfLmf5JE1g==m
++-----END RSA PRIVATE KEY-----
+
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+2mReason: High Entropym
+2mDate: 2021-01-21 07:08:16m
+2mHash: d3d5d23e9b64d4c74ca66526b953afa2036391a2m
+2mFilepath: service/keys/public.keym
+2mBranch: origin/masterm
+2mCommit: fix(service): cleaned up
+m
+@@ -0,0 +1,9 @@
++-----BEGIN PUBLIC KEY-----
+3m+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxFv8lbJ+njQ1thnz25qZm
+3m+AsEQB0yRhz+Ri3X9r9+6M97dus80BRdkRaQPHxJxNaAKQc1HylYqBITS3mMSGjwsm
+3m+J6WtlIAoR8PBUY8fnidjVagTkLFOdzZ+rEEOJtRB0zLUmeDxxDg2qMan2ijn2nksm
+3m+AshRhJQ8eNc84cdZ0pPdKz3ay774Ccj3gHcYHmadICs6nIjcVuJ9S1z16sT7LBiOm
+3m+WR6hlVeV/lJ+1TYrhiTPW+j7CZaXw/BbQZ+mKi/6QpY39tQntz73WIlqGO6uhLxpm
+3m+gUtFI+aZrcLXTHSWiSJLs9KAx++Q5KMF86NOPu8poA+f1twa3jN1NM/lQQBwKhmXm
++bQIDAQAB
++-----END PUBLIC KEY-----
+
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+2mReason: High Entropym
+2mDate: 2021-01-21 07:08:16m
+2mHash: d3d5d23e9b64d4c74ca66526b953afa2036391a2m
+2mFilepath: service/keys/symmetric.keym
+2mBranch: origin/masterm
+2mCommit: fix(service): cleaned up
+m
+@@ -0,0 +1,6 @@
+3m+INZqU5znzA+Kzb9SltHwINpSOzu99scvH3B3YqJYSap+M8ubNQo7mYURxR3gKbnvm
+3m+TR5XJkiKBXALhC9/KlaDFGJEjo4o8xVC1lWgTwSx0p05tG+g8JMoQRCDoWz9f73+m
+3m+PEiP3Z5Z0YjlSBBr4rp/CqUK+B8PhdMddJTNT4Hli6EwXqltJXoNqAMZUrNLvm6nm
+3m+BBvJVebK2J+NqeZrsqteoWMLyAPfVa/RBrDlhhvOo4Z4O5uztulc2Kc2EMWSuqujm
+3m+D93o+I4bBnrl2oSdl0F2uky6c4UYM5xyLrryeX9alKfPn9YUKEZwA/JZuh0fAyl8m
++sPcddvjdmhm6smAYhI8yKw==
+
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+2mReason: High Entropym
+2mDate: 2021-01-21 07:06:57m
+2mHash: 357116ea59d9d0d4cfe8bed75c09da0f3ee99b2am
+2mFilepath: service/docker-entrypoint-initdb.d/01_data.sqlm
+2mBranch: origin/masterm
+2mCommit: feat(service): symmetric version added
+m
+@@ -1,4 +0,0 @@
+-INSERT INTO users(login, password, roles)
+-VALUES
+-       ('admin', '$2a$10$ctPFhgJh.3m3mYIE21AA0OGl5er3p9f3XsAwkmTXnP2I7BxCpQbr1QAg2mm', '{"ADMIN", "USER"}'), -- у этого пользователя две роли (т.е. он и админ, и обычный юзер)
+-       ('user', '$2a$10$ctPFhgJh.3m3mYIE21AA0OGl5er3p9f3XsAwkmTXnP2I7BxCpQbr1QAg2mm', '{"USER"}');
+
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+2mReason: High Entropym
+2mDate: 2021-01-21 07:06:57m
+2mHash: 357116ea59d9d0d4cfe8bed75c09da0f3ee99b2am
+2mFilepath: service/go.summ
+2mBranch: origin/masterm
+2mCommit: feat(service): symmetric version added
+m
+@@ -1,182 +0,0 @@
+-github.com/BurntSushi/toml v0.3.1/go.mod h1:3mxHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03qcyfWMU=m
+-github.com/cockroachdb/apd v1.1.0/go.mod h1:3m8Sl8LxpKi29FqWXR16WEFZRNSz3SoPzUzeMeY4+DwBQ=m
+-github.com/coreos/go-systemd v0.0.0-20190321100706-95778dfbb74e/go.mod h1:3m3mF5haX7vjVVG0kc13fIWeqUViNPyEJxv/OmvnBo0Yme4=mm
+-github.com/coreos/go-systemd v0.0.0-20190719114852-fd7a80b32e1f/go.mod h1:3m3mF5haX7vjVVG0kc13fIWeqUViNPyEJxv/OmvnBo0Yme4=mm
+-github.com/creack/pty v1.1.7/go.mod h1:3mlj5s0c3V2DBrqTV7llrYr5NG6My20zk30Fl46Y7DoTY=m
+-github.com/creack/pty v1.1.9/go.mod h1:3moKZEueFk5CKHvIhNR5MUki03XCEU+Q6VDXinZuGJ33E=m
+-github.com/davecgh/go-spew v1.1.0/go.mod h1:3m3mJ7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=mm
+-github.com/davecgh/go-spew v1.1.1/go.mod h1:3m3mJ7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=mm
+-github.com/go-chi/chi v1.5.0 h1:3m2ZcJZozJ+rj6BA0c19ffBUGXEKAT/aOLOtQjD46vBRA=m
+-github.com/go-chi/chi v1.5.0/go.mod h1:3mREp24E+25iKvxgeTfHmdUoL5x15kBiDBlnIl5bCwe2k=m
+-github.com/go-stack/stack v1.8.0/go.mod h1:3mv0f6uXyyMGvRgIKkXu+yp6POWl0qKG85gN/melR3HDY=m
+-github.com/gofrs/uuid v3.2.0+incompatible/go.mod h1:3m3mb2aQJv3Z4Fp6yNu3cdSllBxTCLRxnplIgP/c0N/04lM=mm
+-github.com/gofrs/uuid v3.3.0+incompatible h1:3m8K4tyRfvU1CYPgJsveYFQMhpFd/wXNM7iK6rR7UHz84=m
+-github.com/gofrs/uuid v3.3.0+incompatible/go.mod h1:3m3mb2aQJv3Z4Fp6yNu3cdSllBxTCLRxnplIgP/c0N/04lM=mm
+-github.com/google/renameio v0.1.0/go.mod h1:3mKWCgfxg9yswjAJkECMjeO8J8rahYeXnNhOm40UhjYkI=m
+-github.com/google/uuid v1.1.1/go.mod h1:3m3mTIyPZe4MgqvfeYDBFedMoGGpEw/LqOeaOT+nhxU+yHo=mm
+-github.com/google/uuid v1.1.2 h1:3mEVhdT+1Kseyi1/pUmXKaFxYsDNy9RQYkMWRH68J/W7Y=m
+-github.com/google/uuid v1.1.2/go.mod h1:3m3mTIyPZe4MgqvfeYDBFedMoGGpEw/LqOeaOT+nhxU+yHo=mm
+-github.com/jackc/chunkreader v1.0.0/go.mod h1:3mRT6O25fNZIuasFJRyZ4R/Y2BbhasbmZXF9QQ7T3kePo=m
+-github.com/jackc/chunkreader/v2 v2.0.0/go.mod h1:3m3modVSm741yZoC3dpHEUXIqA9tQRhFrgOHwnPIn9lDKlk=mm
+-github.com/jackc/chunkreader/v2 v2.0.1/go.mod h1:3m3modVSm741yZoC3dpHEUXIqA9tQRhFrgOHwnPIn9lDKlk=mm
+-github.com/jackc/pgconn v0.0.0-20190420214824-7e0022ef6ba3/go.mod h1:3mjkELnwuX+w9qN5YIfX0fl88Ehu4XC3keFuOJJk9pcnA=m
+-github.com/jackc/pgconn v0.0.0-20190824142844-760dd75542eb/go.mod h1:3mlLjNuW/+OfW9/pnVKPazfWOgNfH2aPem8YQ7ilXGvJE=m
+-github.com/jackc/pgconn v0.0.0-20190831204454-2fabfa3c18b7/go.mod h1:3mZJKsE/KZfsUgOEh9hBm+xYTstcNHg7UPMVJqRfQxq4s=m
+-github.com/jackc/pgconn v1.4.0/go.mod h1:3mY2O3ZDF0q4mMacyWV3AstPJpeHXWGEetiFttmq5lahk=m
+-github.com/jackc/pgconn v1.5.0/go.mod h1:3m3mQeD3lBfpTFe8WUnPZWN5KY/mB8FGMIYRdd8P8Jr0fAI=mm
+-github.com/jackc/pgconn v1.5.1-0.20200601181101-fa742c524853/go.mod h1:3m3mQeD3lBfpTFe8WUnPZWN5KY/mB8FGMIYRdd8P8Jr0fAI=mm
+-github.com/jackc/pgconn v1.6.4/go.mod h1:3mw2pne1C2tZgP+TvjqLpOigGzNqjBgQW9dUw/4Chex78=m
+-github.com/jackc/pgconn v1.7.2 h1:3m195tt17jkjy+FrFlY0pgyrul5kRLb7BGXY3JTrNxeXU=m
+-github.com/jackc/pgconn v1.7.2/go.mod h1:3m1C2Pb36bGIP9QHGBYCjnyhqu7Rv3sGshaQUvmfGIB/o=m
+-github.com/jackc/pgio v1.0.0/go.mod h1:3moP+2QK2wFfUWgr+gxjoBH9KGBb31Eio69xUb0w5bYf8=m
+-github.com/jackc/pgmock v0.0.0-20190831213851-13a1b77aafa2/go.mod h1:3mfGZlG77KXmcq05nJLRkk0+p82V8B8Dw8KN2/V9c/OAE=m
+-github.com/jackc/pgpassfile v1.0.0/go.mod h1:3mCEx0iS5ambNFdcRtxPj5JhEz+xB6uRky5eyVu/W2HEg=m
+-github.com/jackc/pgproto3 v1.1.0/go.mod h1:3meR5FA3leWg7p9aeAqi37XOTgTIbkABlvcPB3E5rlc78=m
+-github.com/jackc/pgproto3/v2 v2.0.0-alpha1.0.20190420180111-c116219b62db/go.mod h1:3mbhq50y+xrl9n5mRYyCBFKkpRVTLYJVWeCc+mEAI3yXA=m
+-github.com/jackc/pgproto3/v2 v2.0.0-alpha1.0.20190609003834-432c2951c711/go.mod h1:3muH0AWtUmuShn0bcesswc4aBTWGvw0cAxIJp+6OB//Wg=m
+-github.com/jackc/pgproto3/v2 v2.0.0-rc3/go.mod h1:3m3mryONWYqW6dqSg1Lw6vXNMXoBJhpzvWKnT95C46ckYeM=mm
+-github.com/jackc/pgproto3/v2 v2.0.0-rc3.0.20190831210041-4c03ce451f29/go.mod h1:3m3mryONWYqW6dqSg1Lw6vXNMXoBJhpzvWKnT95C46ckYeM=mm
+-github.com/jackc/pgproto3/v2 v2.0.1/go.mod h1:3m3m3mWfJCnwN3HIg9Ish/j3sgWXnAfK8A9Y0bwXYU5xKaEdA=mmm
+-github.com/jackc/pgproto3/v2 v2.0.2/go.mod h1:3m3m3mWfJCnwN3HIg9Ish/j3sgWXnAfK8A9Y0bwXYU5xKaEdA=mmm
+-github.com/jackc/pgproto3/v2 v2.0.6 h1:3mb1105ZGEMFe7aCvrT1Cca3VoVb4ZFMaFJLJcg/3zD+8=m
+-github.com/jackc/pgproto3/v2 v2.0.6/go.mod h1:3m3m3mWfJCnwN3HIg9Ish/j3sgWXnAfK8A9Y0bwXYU5xKaEdA=mmm
+-github.com/jackc/pgservicefile v0.0.0-20200307190119-3430c5407db8/go.mod h1:3m3mvsD4gTJCa9TptPL8sPkXrLZ+hDuNrZCnj29CQpr4X1E=mm
+-github.com/jackc/pgservicefile v0.0.0-20200714003250-2b9c44734f2b/go.mod h1:3m3mvsD4gTJCa9TptPL8sPkXrLZ+hDuNrZCnj29CQpr4X1E=mm
+-github.com/jackc/pgtype v0.0.0-20190421001408-4ed0de4755e0/go.mod h1:3mhdSHsc1V01CGwFsrv11mJRHWJ6aifDLfdV3aVjFF0zg=m
+-github.com/jackc/pgtype v0.0.0-20190824184912-ab885b375b90/go.mod h1:3mKcahbBH1nCMSo2DXpzsoWOAfFkdEtEJpPbVLq8eE+mc=m
+-github.com/jackc/pgtype v0.0.0-20190828014616-a8802b16cc59/go.mod h1:3mMWlu30kVJrUS8lot6TQqcg7mtthZ9T0EoIBFiJcmcyw=m
+-github.com/jackc/pgtype v1.2.0/go.mod h1:3m5m2OfMh1wTK7x+Fk952IDmI4nw3nPrvtQdM0ZT4WpC0=m
+-github.com/jackc/pgtype v1.3.1-0.20200510190516-8cd94a14c75a/go.mod h1:3mvaogEUkALtxZMCH411K+tKzNpwzCKU+AnPzBKZ+I+Po=m
+-github.com/jackc/pgtype v1.3.1-0.20200606141011-f6355165a91c/go.mod h1:3mcvk9Bgu/VzJ9/lxTO5R5sf80p0DiucVtN7ZxvaC4GmQ=m
+-github.com/jackc/pgtype v1.4.2/go.mod h1:3m3mJCULISAZBFGrHaOXIIFiyfzW5VY0GRitRr8NeJsrdig=mm
+-github.com/jackc/pgtype v1.6.1 h1:3mCAtFD7TS95KrxRAh3bidgLwva48WYxk8YkbHZsSWfbI=m
+-github.com/jackc/pgtype v1.6.1/go.mod h1:3m3mJCULISAZBFGrHaOXIIFiyfzW5VY0GRitRr8NeJsrdig=mm
+-github.com/jackc/pgx/v4 v4.0.0-20190420224344-cc3461e65d96/go.mod h1:3mmdxmSJJuR08CZQyj1PVQBHy9XOp5p8/SHH6a0psbY9Y=m
+-github.com/jackc/pgx/v4 v4.0.0-20190421002000-1b8f0016e912/go.mod h1:3mno/Y67Jkk/9WuGR0JG/JseM9irFbnEPbuWV2EELPNuM=m
+-github.com/jackc/pgx/v4 v4.0.0-pre1.0.20190824185557-6972a5742186/go.mod h1:3mX+GQnOEnf1dqHGpw7JmHqHc1NxDoalibchSk9/RWuDc=m
+-github.com/jackc/pgx/v4 v4.5.0/go.mod h1:3mEpAKPLdnTorwmPUUsqrPxy5fphV18j9q3wrfRXgo+kA=m
+-github.com/jackc/pgx/v4 v4.6.1-0.20200510190926-94ba730bb1e9/go.mod h1:3mt3/cdRQl6fOLDxqtlyhe9UWgfIi9R8+8v8GKV5TRA/o=m
+-github.com/jackc/pgx/v4 v4.6.1-0.20200606145419-4e5062306904/go.mod h1:3mZDaNWkt9sW1JMiNn0kdYBaLelIhw7Pg4qd+Vk6tw7Hg=m
+-github.com/jackc/pgx/v4 v4.8.1/go.mod h1:3m4HOLxrl8wToZJReD04/yB20GDwf4KBYETvlHciCnwW0=m
+-github.com/jackc/pgx/v4 v4.9.2 h1:3m1V7EAc5jvIqXwdzgk8+YyOK+4071hhePzBCAF6gxUUw=m
+-github.com/jackc/pgx/v4 v4.9.2/go.mod h1:3mJt/xJDqjUDUOMSv8VMWPQlCObVgF2XOgqKsW8S4ROYA=m
+-github.com/jackc/puddle v0.0.0-20190413234325-e4ced69a3a2b/go.mod h1:3m3m3m3m3mm4B5Dj62Y0fbyuIc15OsIqK0+JU8nkqQjsgx7dvjSWk=mmmmm
+-github.com/jackc/puddle v0.0.0-20190608224051-11cab39313c9/go.mod h1:3m3m3m3m3mm4B5Dj62Y0fbyuIc15OsIqK0+JU8nkqQjsgx7dvjSWk=mmmmm
+-github.com/jackc/puddle v1.1.0/go.mod h1:3m3m3m3m3mm4B5Dj62Y0fbyuIc15OsIqK0+JU8nkqQjsgx7dvjSWk=mmmmm
+-github.com/jackc/puddle v1.1.1/go.mod h1:3m3m3m3m3mm4B5Dj62Y0fbyuIc15OsIqK0+JU8nkqQjsgx7dvjSWk=mmmmm
+-github.com/jackc/puddle v1.1.2 h1:3mmpQEXihFnWGDy6X98EOTh81JYuxn7txby8ilJ3iIPGM=m
+-github.com/jackc/puddle v1.1.2/go.mod h1:3m3m3m3m3mm4B5Dj62Y0fbyuIc15OsIqK0+JU8nkqQjsgx7dvjSWk=mmmmm
+-github.com/kisielk/gotool v1.0.0/go.mod h1:3mXhKaO+MFFWcvkIS/tQcRk01m1F5IRFswLeQ+oQHNcck=m
+-github.com/konsorten/go-windows-terminal-sequences v1.0.1/go.mod h1:3m3mT0+1ngSBFLxvqU3pZ+m/2kptfBszLMUkC4ZK/EgS/cQ=mm
+-github.com/konsorten/go-windows-terminal-sequences v1.0.2/go.mod h1:3m3mT0+1ngSBFLxvqU3pZ+m/2kptfBszLMUkC4ZK/EgS/cQ=mm
+-github.com/kr/pretty v0.1.0/go.mod h1:3mdAy3ld7l9f0ibDNOQOHHMYYIIbhfbHSm3C4ZsoJORNo=m
+-github.com/kr/pretty v0.2.1/go.mod h1:3mipq/a2n7PKx3OHsz4KJII5eveXtPO4qwEXGdVfWzfnI=m
+-github.com/kr/pty v1.1.1/go.mod h1:3mpFQYn66WHrOpPYNljwOMqo10TkYh1fy3cYio2l3bCsQ=m
+-github.com/kr/pty v1.1.8/go.mod h1:3mO1sed60cT9XZ5uDucP5qwvh+TE3NnUj51EiZO/lmSfw=m
+-github.com/kr/text v0.1.0/go.mod h1:3m4Jbv+DJW3UT/LiOwJeYQe1efqtUx/iVham/4vfdArNI=m
+-github.com/kr/text v0.2.0/go.mod h1:3meLer722TekiGuMkidMxC/pM04lWEeraHUUmBw8l2grE=m
+-github.com/lib/pq v1.0.0/go.mod h1:3m3m3m3m5WUZQaWbwv1U+lTReE5YruASi9Al49XbQIvNi/34Woo=mmmm
+-github.com/lib/pq v1.1.0/go.mod h1:3m3m3m3m5WUZQaWbwv1U+lTReE5YruASi9Al49XbQIvNi/34Woo=mmmm
+-github.com/lib/pq v1.2.0/go.mod h1:3m3m3m3m5WUZQaWbwv1U+lTReE5YruASi9Al49XbQIvNi/34Woo=mmmm
+-github.com/lib/pq v1.3.0/go.mod h1:3m3m3m3m5WUZQaWbwv1U+lTReE5YruASi9Al49XbQIvNi/34Woo=mmmm
+-github.com/lib/pq v1.8.0 h1:3m9xohqzkUwzR4Ga4ivdTcawVS89YSDVxXMa3xJX3cGzg=m
+-github.com/lib/pq v1.8.0/go.mod h1:3mAlVN5x4E4T544tWzH6hKfbfQvm3HdbOxrmggDNAPY9o=m
+-github.com/mattn/go-colorable v0.1.1/go.mod h1:3mFuOcm+DKB9mbwrcAfNl7/TZVBZ6rcnceauSikq3lYCQ=m
+-github.com/mattn/go-colorable v0.1.2/go.mod h1:3mU0ppj6V5qS13XJ6of8GYAs25YV2eR4EVcfRqFIhoBtE=m
+-github.com/mattn/go-colorable v0.1.6/go.mod h1:3mu6P/XSegPjTcexA+o6vUJrdnUu04hMope9wVRipJSqc=m
+-github.com/mattn/go-isatty v0.0.5/go.mod h1:3m3m3mIq45c/XA43vh69/j3iqttzPXn0bhXyGjM0Hdxcsrc5s=mmm
+-github.com/mattn/go-isatty v0.0.7/go.mod h1:3m3m3mIq45c/XA43vh69/j3iqttzPXn0bhXyGjM0Hdxcsrc5s=mmm
+-github.com/mattn/go-isatty v0.0.8/go.mod h1:3m3m3mIq45c/XA43vh69/j3iqttzPXn0bhXyGjM0Hdxcsrc5s=mmm
+-github.com/mattn/go-isatty v0.0.9/go.mod h1:3mYNRxwqDuOph6SZLI9vUUz6OYw3QyUt7WiY2yME+cCiQ=m
+-github.com/mattn/go-isatty v0.0.12/go.mod h1:3mcbi8OIDigv2wuxKPP5vlRcQ1OAZbq2CE4Kysco4FUpU=m
+-github.com/niemeyer/pretty v0.0.0-20200227124842-a10e7caefd8e/go.mod h1:3mzD1mROLANZcx1PVRCS0qkT7pwLkGfwJo4zjcN/Tysno=m
+-github.com/pkg/errors v0.8.1/go.mod h1:3m3mbwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=mm
+-github.com/pkg/errors v0.9.1/go.mod h1:3m3mbwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=mm
+-github.com/pmezard/go-difflib v1.0.0/go.mod h1:3miKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=m
+-github.com/rogpeppe/go-internal v1.3.0/go.mod h1:3mM8bDsm7K2OlrFYOpmOWEs/qY81heoFRclV5y23lUDJ4=m
+-github.com/rs/xid v1.2.1/go.mod h1:3m+uKXf+4Djp6Md1KODXJxgGQPKngRmWyn10oCKFzNHOQ=m
+-github.com/rs/zerolog v1.13.0/go.mod h1:3mYbFCdg8HfsridGWAh22vktObvhZbQsZXe4/zB0OKkWU=m
+-github.com/rs/zerolog v1.15.0/go.mod h1:3mxYTKnLHcpfU2225ny5qZjxnj9NvkumZYjJHlAThCjNc=m
+-github.com/satori/go.uuid v1.2.0/go.mod h1:3mdA0hQrYB0VpLJoorglMZABFdXlWrHn1NEOzdhQKdks0=m
+-github.com/shopspring/decimal v0.0.0-20180709203117-cd690d0c9e24/go.mod h1:3mM+9NzErvs504Cn4c5DxATwIqPbtswREoFCre64PpcG4=m
+-github.com/shopspring/decimal v0.0.0-20200227202807-02e2044944cc/go.mod h1:3m3mDKyhrW/HYNuLGql+MJL6WCR6knT2jwCFRcu2hWCYk4o=mm
+-github.com/shopspring/decimal v1.2.0 h1:3mabSATXmQEYyShuxI4/vyW3tV1MrKAJzCZ/0zLUXYbsQ=m
+-github.com/shopspring/decimal v1.2.0/go.mod h1:3m3mDKyhrW/HYNuLGql+MJL6WCR6knT2jwCFRcu2hWCYk4o=mm
+-github.com/sirupsen/logrus v1.4.1/go.mod h1:3mni0Sbl8bgC9z8RoU9G6nDWqqs/fq4eDPysMBDgk/93Q=m
+-github.com/sirupsen/logrus v1.4.2/go.mod h1:3mtLMulIdttU9McNUspp0xgXVQah82FyeX6MwdIuYE2rE=m
+-github.com/stretchr/objx v0.1.0/go.mod h1:3m3mHFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=mm
+-github.com/stretchr/objx v0.1.1/go.mod h1:3m3mHFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=mm
+-github.com/stretchr/objx v0.2.0/go.mod h1:3mqt09Ya8vawLte6SNmTgCsAVtYtaKzEcn8ATUoHMkEqE=m
+-github.com/stretchr/testify v1.2.2/go.mod h1:3ma8OnRcib4nhh0OaRAV+Yts87kKdq0PP7pXfy6kDkUVs=m
+-github.com/stretchr/testify v1.3.0/go.mod h1:3mM5WIy9Dh21IEIfnGCwXGc5bZfKNJtfHm1UVUgZn+9EI=m
+-github.com/stretchr/testify v1.4.0/go.mod h1:3mj7eGeouHqKxXV5pUuKE4zz7dFj8WfuZ+81PSLYec5m4=m
+-github.com/stretchr/testify v1.5.1/go.mod h1:3m5W2xD1RspED5o8YsWQXVCued0rvSQ+mT+I5cxcmMvtA=m
+-github.com/stretchr/testify v1.6.1/go.mod h1:3m6Fq8oRcR53rry900zMqJjRRixrwX3KX962/h/Wwjteg=m
+-github.com/zenazn/goji v0.9.0/go.mod h1:3m7S9M489iMyHBNxwZnk9/EHS098H4/F6TATF2mIxtB1Q=m
+-go.uber.org/atomic v1.3.2/go.mod h1:3m3mgD2HeocX3+yG+ygLZcrzQJaqmWj9AIm7n08wl/qW/PE=mm
+-go.uber.org/atomic v1.4.0/go.mod h1:3m3mgD2HeocX3+yG+ygLZcrzQJaqmWj9AIm7n08wl/qW/PE=mm
+-go.uber.org/atomic v1.6.0/go.mod h1:3msABNBOSYdrvTF6hTgEIbc7YasKWGhgEQZyfxyTvoXHQ=m
+-go.uber.org/multierr v1.1.0/go.mod h1:3mwR5kodmAFQ0UK8QlbwjlSNy0Z68gJhDJUG5sjR94q/0=m
+-go.uber.org/multierr v1.5.0/go.mod h1:3mFeouvMocqHpRaaGuG9EjoKcStLC43Zu/fmqdUMPcKYU=m
+-go.uber.org/tools v0.0.0-20190618225709-2cfd321de3ee/go.mod h1:3mvJERXedbb3MVM5f9Ejo0C68/HhF8uaILCdgjnY+goOA=m
+-go.uber.org/zap v1.9.1/go.mod h1:3m3mvwi/ZaCAaUcBkycHslxD9B2zi4UTXhF60s6SWpuDF0Q=mm
+-go.uber.org/zap v1.10.0/go.mod h1:3m3mvwi/ZaCAaUcBkycHslxD9B2zi4UTXhF60s6SWpuDF0Q=mm
+-golang.org/x/crypto v0.0.0-20190308221718-c2843e01d9a2/go.mod h1:3mdjNgcEr1/C05ACkg1iLfiJU5Ep61QUkGW8qpdssI0+w=m
+-golang.org/x/crypto v0.0.0-20190411191339-88737f569e3a/go.mod h1:3mWFFai1msRO1wXaEeE5yQxYXgSfI8pQAWXbQop6sCtWE=m
+-golang.org/x/crypto v0.0.0-20190510104115-cbcb75029529/go.mod h1:3m3m3myigFU9vqHzYiE8UmvKecakEJjdnWj3jj499lnFckfCI=mmm
+-golang.org/x/crypto v0.0.0-20190820162420-60c769a6c586/go.mod h1:3m3m3myigFU9vqHzYiE8UmvKecakEJjdnWj3jj499lnFckfCI=mmm
+-golang.org/x/crypto v0.0.0-20190911031432-227b76d455e7/go.mod h1:3m3m3myigFU9vqHzYiE8UmvKecakEJjdnWj3jj499lnFckfCI=mmm
+-golang.org/x/crypto v0.0.0-20200323165209-0ec3e9974c59/go.mod h1:3m3m3mLzIPMQfyMNhhGPhUkYOs5KpL4U8rLKemX1yGLhDgUto=mmm
+-golang.org/x/crypto v0.0.0-20200622213623-75b288015ac9/go.mod h1:3m3m3mLzIPMQfyMNhhGPhUkYOs5KpL4U8rLKemX1yGLhDgUto=mmm
+-golang.org/x/crypto v0.0.0-20200820211705-5c72a883971a/go.mod h1:3m3m3mLzIPMQfyMNhhGPhUkYOs5KpL4U8rLKemX1yGLhDgUto=mmm
+-golang.org/x/crypto v0.0.0-20201116153603-4be66e5b6582 h1:3m0WDrJ1E7UolDk1KhTXxxw3Fc8qtk5x7dHP431KHEJls=m
+-golang.org/x/crypto v0.0.0-20201116153603-4be66e5b6582/go.mod h1:3mtCqSYrHVcf3i63Co2FzBkTCo2gdF6Zak62921dSfraU=m
+-golang.org/x/lint v0.0.0-20190930215403-16217165b5de/go.mod h1:3m6SW0HCj/g11FgYtHlgUYUwCkIfeOF89ocIRzGO/8vkc=m
+-golang.org/x/mod v0.0.0-20190513183733-4bf6d317e70e/go.mod h1:3mmXi4GBBbnImb6dmsKGUJ2LatrhH/nqhxcFungHvyanc=m
+-golang.org/x/net v0.0.0-20190311183353-d8887717615a/go.mod h1:3m3mt9HGtf8HONx5eT2rtn7q6eTqICYqUVnKs3thJo3Qplg=mm
+-golang.org/x/net v0.0.0-20190404232315-eb5bcb51f2a3/go.mod h1:3m3mt9HGtf8HONx5eT2rtn7q6eTqICYqUVnKs3thJo3Qplg=mm
+-golang.org/x/net v0.0.0-20190620200207-3b0461eec859/go.mod h1:3m3mz5CRVTTTmAJ677TzLLGU+0bjPO0LkuOLi4/5GtJWs/s=mm
+-golang.org/x/net v0.0.0-20190813141303-74dc4d7220e7/go.mod h1:3m3mz5CRVTTTmAJ677TzLLGU+0bjPO0LkuOLi4/5GtJWs/s=mm
+-golang.org/x/sync v0.0.0-20190423024810-112230192c58/go.mod h1:3mRxMgew5VJxzue5/jJTE5uejpjVlOe/izrB70Jof72aM=m
+-golang.org/x/sys v0.0.0-20180905080454-ebe1bf3edb33/go.mod h1:3m3m3mSTP8DvDyc/dI5b8T5hshtkjS+E42TnysNCUPdjciGhY=mmm
+-golang.org/x/sys v0.0.0-20190215142949-d0b11bdaac8a/go.mod h1:3m3m3mSTP8DvDyc/dI5b8T5hshtkjS+E42TnysNCUPdjciGhY=mmm
+-golang.org/x/sys v0.0.0-20190222072716-a9d3bda3a223/go.mod h1:3m3m3mSTP8DvDyc/dI5b8T5hshtkjS+E42TnysNCUPdjciGhY=mmm
+-golang.org/x/sys v0.0.0-20190403152447-81d4e9dc473e/go.mod h1:3m3m3m3m3m3m3m3mh1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=mmmmmmmm
+-golang.org/x/sys v0.0.0-20190412213103-97732733099d/go.mod h1:3m3m3m3m3m3m3m3mh1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=mmmmmmmm
+-golang.org/x/sys v0.0.0-20190422165155-953cdadca894/go.mod h1:3m3m3m3m3m3m3m3mh1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=mmmmmmmm
+-golang.org/x/sys v0.0.0-20190813064441-fde4db37ae7a/go.mod h1:3m3m3m3m3m3m3m3mh1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=mmmmmmmm
+-golang.org/x/sys v0.0.0-20190826190057-c7b8b68b1456/go.mod h1:3m3m3m3m3m3m3m3mh1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=mmmmmmmm
+-golang.org/x/sys v0.0.0-20191026070338-33540a1f6037/go.mod h1:3m3m3m3m3m3m3m3mh1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=mmmmmmmm
+-golang.org/x/sys v0.0.0-20200116001909-b77594299b42/go.mod h1:3m3m3m3m3m3m3m3mh1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=mmmmmmmm
+-golang.org/x/sys v0.0.0-20200223170610-d5e6a3e2c0ae/go.mod h1:3m3m3m3m3m3m3m3mh1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=mmmmmmmm
+-golang.org/x/term v0.0.0-20201113234701-d7a72108b828/go.mod h1:3mNr5EML6q2oocZ2LXRh80K7BxOlk5/8JxuGnuhpl+muw=m
+-golang.org/x/text v0.3.0/go.mod h1:3mNqM8EUOU14njkJ3fqMW+pc6Ldnwhi/IjpwHt7yyuwOQ=m
+-golang.org/x/text v0.3.2/go.mod h1:3mbEr9sfX3Q8Zfm5fL9x+3itogRgK3+ptLWKqgva+5dAk=m
+-golang.org/x/text v0.3.3 h1:3mcokOdA+Jmi5PJGXLlLllQSgYigAEfHXJAERHVMaCc2k=m
+-golang.org/x/text v0.3.3/go.mod h1:3m3m5Zoc/QRtKVWzQhOtBMvqHzDpF6irO9z98xDceosuGiQ=mm
+-golang.org/x/text v0.3.4 h1:3m0YWbFKbhXG/wIiuHDSKpS0Iy7FSA+u45VtBMfQcFTTc=m
+-golang.org/x/text v0.3.4/go.mod h1:3m3m5Zoc/QRtKVWzQhOtBMvqHzDpF6irO9z98xDceosuGiQ=mm
+-golang.org/x/tools v0.0.0-20180917221912-90fa682c2a6e/go.mod h1:3mn7NCudcB/nEzxVGmLbDWY5pfWTLqBcC2KZ6jyYvM4mQ=m
+-golang.org/x/tools v0.0.0-20190311212946-11955173bddd/go.mod h1:3mLCzVGOaR6xXOjkQ3onu1FJEFr0SW1gC7cKk1uF8kGRs=m
+-golang.org/x/tools v0.0.0-20190425163242-31fd60d6bfdc/go.mod h1:3mRgjU9mgBXZiqYHBnxXauZ1Gv1EHHAz9KjViQ78xBX0Q=m
+-golang.org/x/tools v0.0.0-20190621195816-6e04913cbbac/go.mod h1:3m/rFqwRUd4F7ZHNgwSSTFct+R/Kf4OFW1sUzUTQQTgfc=m
+-golang.org/x/tools v0.0.0-20190823170909-c4a336ef6a2f/go.mod h1:3m3m3mb+2E5dAYhXwXZwtnZ6UAqBI28+e2cm9otk0dWdXHAEo=mmm
+-golang.org/x/tools v0.0.0-20191029041327-9cc4af7d6b2c/go.mod h1:3m3m3mb+2E5dAYhXwXZwtnZ6UAqBI28+e2cm9otk0dWdXHAEo=mmm
+-golang.org/x/tools v0.0.0-20191029190741-b9c20aec41a5/go.mod h1:3m3m3mb+2E5dAYhXwXZwtnZ6UAqBI28+e2cm9otk0dWdXHAEo=mmm
+-golang.org/x/xerrors v0.0.0-20190410155217-1f06c39b4373/go.mod h1:3m3m3m3m3mI/5z698sn9Ka8TeJc9MKroUUfqBBauWjQqLJ2OPfmY0=mmmmm
+-golang.org/x/xerrors v0.0.0-20190513163551-3ee3066db522/go.mod h1:3m3m3m3m3mI/5z698sn9Ka8TeJc9MKroUUfqBBauWjQqLJ2OPfmY0=mmmmm
+-golang.org/x/xerrors v0.0.0-20190717185122-a985d3407aa7/go.mod h1:3m3m3m3m3mI/5z698sn9Ka8TeJc9MKroUUfqBBauWjQqLJ2OPfmY0=mmmmm
+-golang.org/x/xerrors v0.0.0-20191204190536-9bdfabe68543/go.mod h1:3m3m3m3m3mI/5z698sn9Ka8TeJc9MKroUUfqBBauWjQqLJ2OPfmY0=mmmmm
+-golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1/go.mod h1:3m3m3m3m3mI/5z698sn9Ka8TeJc9MKroUUfqBBauWjQqLJ2OPfmY0=mmmmm
+-gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405/go.mod h1:3m3m3mCo6ibVJAznAaIkqp8huTwlJQCZ016jof/cbN4VW5Yz0=mmm
+-gopkg.in/check.v1 v1.0.0-20180628173108-788fd7840127/go.mod h1:3m3m3mCo6ibVJAznAaIkqp8huTwlJQCZ016jof/cbN4VW5Yz0=mmm
+-gopkg.in/check.v1 v1.0.0-20200902074654-038fdea0a05b h1:3mQRR6H1YWRnHb4Y/HeNFCTJLFVxaq6wH4YuVdsUOr75U=m
+-gopkg.in/check.v1 v1.0.0-20200902074654-038fdea0a05b/go.mod h1:3m3m3mCo6ibVJAznAaIkqp8huTwlJQCZ016jof/cbN4VW5Yz0=mmm
+-gopkg.in/errgo.v2 v2.1.0/go.mod h1:3mhNsd1EY+bozCKY1Ytp96fpM3vjJbqLJn88ws8XvfDNI=m
+-gopkg.in/inconshreveable/log15.v2 v2.0.0-20180818164646-67afb5ed74ec/go.mod h1:3maPpfJ7XW+gOuirDoZ8gHhLh3kZ1B08FtV2bbmy7Jv3s=m
+-gopkg.in/yaml.v2 v2.2.2/go.mod h1:3m3mhI93XBmqTisBFMUTm0b8Fm+jr3Dg1NNxqwp+5A1VGuI=mm
+-gopkg.in/yaml.v2 v2.3.0/go.mod h1:3m3mhI93XBmqTisBFMUTm0b8Fm+jr3Dg1NNxqwp+5A1VGuI=mm
+-gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c/go.mod h1:3m3mK4uyk7z7BCEPqu6E+C64Yfv1cQ7kz7rIZviUmN+EgEM=mm
+-gopkg.in/yaml.v3 v3.0.0-20200615113413-eeeca48fe776 h1:3mtQIYjPdBoyREyB9XMu+nnTclpTYkz2zFM+lzLJFO4gQ=m
+-gopkg.in/yaml.v3 v3.0.0-20200615113413-eeeca48fe776/go.mod h1:3m3mK4uyk7z7BCEPqu6E+C64Yfv1cQ7kz7rIZviUmN+EgEM=mm
+-honnef.co/go/tools v0.0.1-2019.2.3/go.mod h1:3ma3bituU0lyd329TUQxRnasdCoJDkEUEAqEt0JzvZhAg=m
+
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+2mReason: High Entropym
+2mDate: 2021-01-21 07:06:57m
+2mHash: 357116ea59d9d0d4cfe8bed75c09da0f3ee99b2am
+2mFilepath: service/keys/private.keym
+2mBranch: origin/masterm
+2mCommit: feat(service): symmetric version added
+m
+@@ -1,27 +0,0 @@
+------BEGIN RSA PRIVATE KEY-----
+-3mMIIEpAIBAAKCAQEAxFv8lbJ+njQ1thnz25qZAsEQB0yRhz+Ri3X9r9+6M97dus80m
+-3mBRdkRaQPHxJxNaAKQc1HylYqBITS3mMSGjwsJ6WtlIAoR8PBUY8fnidjVagTkLFOm
+-3mdzZ+rEEOJtRB0zLUmeDxxDg2qMan2ijn2nksAshRhJQ8eNc84cdZ0pPdKz3ay774m
+-3mCcj3gHcYHmadICs6nIjcVuJ9S1z16sT7LBiOWR6hlVeV/lJ+1TYrhiTPW+j7CZaXm
+-3mw/BbQZ+mKi/6QpY39tQntz73WIlqGO6uhLxpgUtFI+aZrcLXTHSWiSJLs9KAx++Qm
+-3m5KMF86NOPu8poA+f1twa3jN1NM/lQQBwKhmXbQIDAQABAoIBAQCKbC5LeWE5NaUHm
+-3mkpQOI5XqEx+xhZCxv2Zi4fLMoPMqzdmRb7BERpExZs4iIWYdX4zbhlMtmEBWnyvom
+-3mCf8g73pRGMKdBRtgO+d0D2lCnJGyOKJSRiwCbjAuTk4joU4mDJdDQwgsQ1SE9kYtm
+-3mzNhlczZLX9vXkohux4zrvRTdFc+8QsoojlKwRTpRUFoJW7V5yfU9BqrujTqhWdDmm
+-3mm8VlcvWgPsX5djyDamgZuGr7aKjAMI4bXGahBIQdkWnpRnGu5e1gM1tCOqt/0WiRm
+-3miTRkew0P6tyLqaCzlTheOEOGil74d8IANfOBO3ePqObuGBuBtsFzr9OgJ7MreXH0m
+-3m03CAsfUhAoGBAOpLN7hMNpw2wQp3DLXt9sn5MTyffEYVjK9IWeDErZNIDCKFXgwDm
+-3mmwstTBSIXA0ORPs5YGJJ+ZbvRUnWsViMvT9tyKu365hrFTpDl28boXdSVSQ7D3igm
+-3mNmTF6HG5Yg+0v3cQD/dDcoi3YlJY7Bnw9KNMv6xemwzuq5A4Xv5RTndjAoGBANaNm
+-3mEh0gmmj+YaHhY+2MjO0TQFn1PMLxbwFvPJ/IfxbMg+ZZAXDV7fT8LlSWY4hnp44Wm
+-3mdZadlkdNZt1Dqs+xuiN0yE6HeLVa9rB1tpxhneKm3y+L2SThc+laQl7jnzkZaa//m
+-3mHEQURfCmmLgJTZ0gtUc4Z9bN/rNC1gRdUD+wFfbvAoGBANqyN2KqkVcjrPGNyqmPm
+-3mZIuHNbR20lPBDb8X8/1g2PzfhaQ7hVwFiZXXRGruFa6CIVW3awaUMov28GBKLOSRm
+-3mCp3IZkYTubBeVEQ8j4BA9GkiyyK0lm5sbhmGusBc4PH0L7x9m8mcha6kLvza0Bgum
+-3m2MwNeeT1shlSN4a5d8JANtQtAoGAH09fAVksr33QCau2xYfpWP+iOH6Na3WIWZE+m
+-3mK6M6yLz30rnSeAEAROw4Zqe7xsA5t4aXim9c6vLkvA2P89df7qSwRqWGfBDWR1Imm
+-3mYBPu0pC/qVSjT7qHC9rcLLTTG6YVwlVcbqL2wfPN/a194hxP2CDnJnXRYZ+zU9e6m
+-3mSlEMI4kCgYBa11Nlkt2YwHdpu0MAvTeA76983aQ20Tczx4qX17aOLdDdnVVQzoqrm
+-3mtZWXbWOrRJohpU/kSJYxrcK3fFdPJ2ctwe7jqVTylEo3yfpdgLLd+5ZQRt/+4kt6m
+-3mBTS1gNCQSJt8M2QznbIlNyWXi3jpjjKp7uyHJT/3r++5dfLmf5JE1g==m
+------END RSA PRIVATE KEY-----
+
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+2mReason: High Entropym
+2mDate: 2021-01-21 07:06:57m
+2mHash: 357116ea59d9d0d4cfe8bed75c09da0f3ee99b2am
+2mFilepath: service/keys/public.keym
+2mBranch: origin/masterm
+2mCommit: feat(service): symmetric version added
+m
+@@ -1,9 +0,0 @@
+------BEGIN PUBLIC KEY-----
+-3mMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxFv8lbJ+njQ1thnz25qZm
+-3mAsEQB0yRhz+Ri3X9r9+6M97dus80BRdkRaQPHxJxNaAKQc1HylYqBITS3mMSGjwsm
+-3mJ6WtlIAoR8PBUY8fnidjVagTkLFOdzZ+rEEOJtRB0zLUmeDxxDg2qMan2ijn2nksm
+-3mAshRhJQ8eNc84cdZ0pPdKz3ay774Ccj3gHcYHmadICs6nIjcVuJ9S1z16sT7LBiOm
+-3mWR6hlVeV/lJ+1TYrhiTPW+j7CZaXw/BbQZ+mKi/6QpY39tQntz73WIlqGO6uhLxpm
+-3mgUtFI+aZrcLXTHSWiSJLs9KAx++Q5KMF86NOPu8poA+f1twa3jN1NM/lQQBwKhmXm
+-bQIDAQAB
+------END PUBLIC KEY-----
+
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+2mReason: High Entropym
+2mDate: 2021-01-21 07:06:57m
+2mHash: 357116ea59d9d0d4cfe8bed75c09da0f3ee99b2am
+2mFilepath: service/keys/symmetric.keym
+2mBranch: origin/masterm
+2mCommit: feat(service): symmetric version added
+m
+@@ -1,6 +0,0 @@
+-3mINZqU5znzA+Kzb9SltHwINpSOzu99scvH3B3YqJYSap+M8ubNQo7mYURxR3gKbnvm
+-3mTR5XJkiKBXALhC9/KlaDFGJEjo4o8xVC1lWgTwSx0p05tG+g8JMoQRCDoWz9f73+m
+-3mPEiP3Z5Z0YjlSBBr4rp/CqUK+B8PhdMddJTNT4Hli6EwXqltJXoNqAMZUrNLvm6nm
+-3mBBvJVebK2J+NqeZrsqteoWMLyAPfVa/RBrDlhhvOo4Z4O5uztulc2Kc2EMWSuqujm
+-3mD93o+I4bBnrl2oSdl0F2uky6c4UYM5xyLrryeX9alKfPn9YUKEZwA/JZuh0fAyl8m
+-sPcddvjdmhm6smAYhI8yKw==
+
+~~~~~~~~~~~~~~~~~~~~~
