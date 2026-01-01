@@ -5,12 +5,15 @@
 ## Задание 1. Образы и контейнеры Docker
 
 Скриншот вывода команды `ifconfig` (Kali Linux):
+
 ![](screens/Screen1.1.png)
 
 скриншот вывода результатов команды `sudo docker pull bash`:
+
 ![](screens/Screen1.2.png)
 
 скриншот вывода результатов команды `sudo docker run -it bash`:
+
 ![](screens/Screen1.3.png)
 
 скриншот вывода результатов команд:
@@ -28,16 +31,21 @@
 ## Задание 2. Bash в Docker
 
 скриншот вывода результатов команды `sudo docker run --rm -it bash`:
+
 ![](screens/Screen2.1.png)
 
 скриншот вывода результатов команд `whoami`, `cat /etc/*release*` и `ls -la /` (в контейнере):
+
 ![](screens/Screen2.2-3.png)
 
 скриншот вывода результатов команд `whoami` и `cat /etc/*release*` (в основной системе):
+
 ![](screens/Screen2.4.png)
+
 ![](screens/Screen2.4_.png)
 
 скриншот вывода результатов команды `ls -la` (в основной системе):
+
 ![](screens/Screen2.5.png)
 
 ---
@@ -46,9 +54,11 @@
 
 
 скриншот вывода содержимого файла скрипта `cat mybash1.sh`:
+
 ![](screens/Screen3.1.png)
 
 скриншот вывода содержимого файла Dockerfile `cat Dockerfile`:
+
 ![](screens/Screen3.2.png)
 
 скриншот результатов сборки образа `sudo docker build -t imagebash1 .` искриншот результатов запуска контейнера `sudo docker run –rm imagebash1`:
