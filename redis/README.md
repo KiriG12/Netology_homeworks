@@ -6,7 +6,7 @@
 
 ### Описание задания
 
-Разбор нового механизм ACL, появившийся в Redis 6.0.  
+Разбор нового механизм ACL, появившегося в Redis 6.0.  
 В качестве целевой конфигурации будет использоваться файл [docker-compose.yml](./screens/docker-compose.yml).  
 Так же будет использоваться файл конфигурации [redis.conf](./screens/redis.conf).  
 
@@ -19,21 +19,21 @@
 #### Часть 2. 
 Отредактирован файл `redis.conf` - добавлена запись `user default off` на 759 строку, запущен контейнер Redis в одном из терминалов 
 командой `docker-compose up`.  
-Выполнены необходимые команды - `ACL WHOAMI`, `ACL LIST`, `AUTH default`.
+Выполнены необходимые команды - `ACL WHOAMI`, `ACL LIST`, `AUTH default`:
 
 ![](screens/screen2.png)
 
 Завершена работа контейнера `Ctrl + C`, а так же данные контейнера удалены `docker-compose rm`.  
 
 #### Часть 3.  
-Отредактирован файл `redis.conf` - на 760 строку добавлена запись:
+Отредактирован файл `redis.conf` - на 760 строку добавлена запись:  
 `user app on #2bb80d537b1da3e38bd30361aa855686bde0eacd7162fef6a25fe97bf527a25b ~* +@read +@write`.  
 Расшифрован пароль хэша `2bb80d537b1da3e38bd30361aa855686bde0eacd7162fef6a25fe97bf527a25b` - secret.  
-Выполнены необходимые команды
+Выполнены необходимые команды:
 
 ![](screens/screen3.png)
 
 #### Часть 4.  
-Отредактирован файл `redis.conf` - на 759 строке удалена запись `user default off`.
+Отредактирован файл `redis.conf` - на 759 строке удалена запись `user default off`:
 
 ![](screens/screen4.png)
