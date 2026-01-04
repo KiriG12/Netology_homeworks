@@ -10,3 +10,5 @@
 - [Системы хранения данных: кеши, очереди, файловая система](./redis)
 
 - [СЗИ от несанкционированного доступа](./secretnet)
+
+- [Security Information and Event Management (SIEM)](./siem)
