@@ -12,3 +12,5 @@
 - [СЗИ от несанкционированного доступа](./secretnet)
 
 - [Security Information and Event Management (SIEM)](./siem)
+
+- [Intrusion Detection/Intrusion Prevention Systems (IDS/IPS)](./idsips)
