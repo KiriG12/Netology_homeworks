@@ -11,6 +11,10 @@
 
 - [СЗИ от несанкционированного доступа](./secretnet)
 
+- [Intrusion Detection/Intrusion Prevention Systems (IDS/IPS)](./idsips)
+
 - [Security Information and Event Management (SIEM)](./siem)
 
-- [Intrusion Detection/Intrusion Prevention Systems (IDS/IPS)](./idsips)
+- [Kaspersky Endpoint Security](./kasper)
+
+- [Web Application Firewall (WAF)](./waf)
