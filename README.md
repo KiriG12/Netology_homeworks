@@ -19,4 +19,4 @@
 
 - [Web Application Firewall (WAF)](./waf)
 
-- [Linux Hardening](./lunux_hard)
+- [Linux Hardening](./linux_hard)
