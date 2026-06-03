@@ -22,3 +22,5 @@
 - [Linux Hardening](./linux_hard)
 
 - [Suricata](./suricata)
+
+- [Windows Hardening](./win_hard)
