@@ -24,3 +24,5 @@
 - [Suricata](./suricata)
 
 - [Windows Hardening](./win_hard)
+
+- [Penetration Testing](./pen_test)
